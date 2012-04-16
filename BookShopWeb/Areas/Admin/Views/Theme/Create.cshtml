@@ -1,0 +1,12 @@
+﻿@model BookShopModel.Model.Theme
+
+@{
+    ViewBag.Title = "Create";
+}
+
+@{
+    Html.RenderPartial("CreateEditPartial", ViewData);
+}
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

@@ -1,0 +1,7 @@
+D:\PrgSource\BookShop\BookShopModel\bin\Debug\BookShopModel.dll
+D:\PrgSource\BookShop\BookShopModel\bin\Debug\BookShopModel.pdb
+D:\PrgSource\BookShop\BookShopModel\bin\Debug\EntityFramework.dll
+D:\PrgSource\BookShop\BookShopModel\bin\Debug\EntityFramework.xml
+D:\PrgSource\BookShop\BookShopModel\obj\Debug\ResolveAssemblyReference.cache
+D:\PrgSource\BookShop\BookShopModel\obj\Debug\BookShopModel.dll
+D:\PrgSource\BookShop\BookShopModel\obj\Debug\BookShopModel.pdb

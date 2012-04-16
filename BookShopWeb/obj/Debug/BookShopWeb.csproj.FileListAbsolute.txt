@@ -1,0 +1,10 @@
+D:\PrgSource\BookShop\BookShopWeb\bin\BookShopWeb.dll
+D:\PrgSource\BookShop\BookShopWeb\bin\BookShopWeb.pdb
+D:\PrgSource\BookShop\BookShopWeb\bin\BookShopModel.dll
+D:\PrgSource\BookShop\BookShopWeb\bin\EntityFramework.dll
+D:\PrgSource\BookShop\BookShopWeb\bin\BookShopModel.pdb
+D:\PrgSource\BookShop\BookShopWeb\bin\EntityFramework.xml
+D:\PrgSource\BookShop\BookShopWeb\obj\Debug\ResolveAssemblyReference.cache
+D:\PrgSource\BookShop\BookShopWeb\obj\Debug\BookShopWeb.dll
+D:\PrgSource\BookShop\BookShopWeb\obj\Debug\BookShopWeb.pdb
+D:\PrgSource\BookShop\BookShopWeb\bin\Microsoft.Practices.Unity.dll

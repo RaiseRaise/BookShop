@@ -1,0 +1,152 @@
+body
+{
+    font-size: .85em;
+    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #fff;
+}
+
+header,
+footer,
+nav,
+section {
+    display: block;
+}
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+
+fieldset 
+{
+    border:1px solid #ddd;
+    padding:0 1.4em 1.4em 1.4em;
+    margin:0 0 1.5em 0;
+}
+
+legend 
+{
+    font-size:1.2em;
+    font-weight: bold;
+}
+
+textarea 
+{
+    min-height: 75px;
+}
+
+.editor-label 
+{
+    margin: 1em 0 0 0;
+}
+
+.editor-field 
+{
+    margin:0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+/* custom */
+#content{
+    position: relative;
+    border: solid 1px #9cb0c5;
+    min-height: 100%;
+    padding: 5px;
+}
+.main-wrapper{
+    background-color: #F6F6F6;
+    padding: 2px 2px 2px 2px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+.greeting{
+    margin: 10px 0px 10px 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 25px;
+    font-family: Arial,sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+}
+.list-item, .list-header{
+    border: 1px solid #CCC;
+    clear: both;
+    height: 31px;
+}
+.list-item{
+    background-color: #f9f9f9;
+}
+.list-header{
+    background-color: #BBB;
+}
+.list-item>div,   
+.list-header>div{
+    border-right: 1px solid #CCC;
+    padding-top: 3px;
+    padding-left: 15px;
+    height: 28px;
+    float: left;
+}
+.list-item:hover{
+	background-color: #fefefe;
+}
+.item-bookname{
+    width: 250px;
+}
+.item-price{
+    width: 110px;
+}
+.item-author{
+    width: 226px;
+}
+.item-theme{
+    width: 200px;
+}
+.item-action{
+    width: 80px;
+}
+.popup-round-form {
+    display: none;
+    position: absolute;
+    z-index: 30;
+    text-align: justify;
+    padding: 10px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    -moz-box-shadow: 0 0 30px 10px #555;
+    -webkit-box-shadow: 0 0 30px 10px #555;
+    box-shadow: 0 0 30px 10px #555;
+    border: 1px solid #666666;
+    background-color: #f9f9f9;
+    width : 250px;
+}

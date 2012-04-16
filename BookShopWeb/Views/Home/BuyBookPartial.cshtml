@@ -1,0 +1,57 @@
+﻿@model BookShopModel.Model.Sale
+<link href="@Url.Content("~/Content/themes/base/jquery.ui.all.css")" rel="stylesheet" type="text/css" media="all" />
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery-ui-1.8.11.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.ui.datepicker-ru.js")" type="text/javascript"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#Date").datepicker();
+    });
+</script>
+@if (!String.IsNullOrEmpty(ViewBag.Message))
+{
+    <h2 id="message">
+        @ViewBag.Message</h2>
+    <div id="buy-info">
+         @Model.Quantity books "@Model.Book.BookName" at @String.Format("{0:d}", @Model.Date)
+    </div>
+}
+else
+{
+    using (Html.BeginForm("BuyBook", "Home", FormMethod.Post, new { id = "form-post" }))
+    {
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>Sale</legend>
+        @Html.HiddenFor(model => model.BookId)
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Book.BookName) :
+            <span id= "book-name">@Html.DisplayFor(model => model.Book.BookName)</span>
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Quantity)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Quantity)
+            @Html.ValidationMessageFor(model => model.Quantity)
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Date)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Date)
+            @Html.ValidationMessageFor(model => model.Date)
+        </div>
+        <p>
+            <input type="submit" value="Buy" id="buy-submit" />
+        </p>
+    </fieldset>
+    }
+}
+<div>
+    @Html.ActionLink("Back to List", "Index", null, new { id = "back-link" })
+</div>
+<span id="ajax-sending" style="display: none;">Sending...
+    <img src='@Href("~/Content/images/ajax-loader-medium.gif")' alt="Loading"/>
+</span>

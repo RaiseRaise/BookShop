@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0b21a86c-09ae-49e4-8834-d145c60d8fe0" name="user@USER-PC 2012-04-15 18:01:09" runUser="user-PC\user" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="cd4b7cfe-9bea-4788-86cd-336ecd64555a">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="user_USER-PC 2012-04-15 18_01_09">
+      <DeploymentItem filename="D:\PrgSource\BookShop\packages\Moq.4.0.10827\lib\NET40\Moq.dll" />
+      <DeploymentItem filename="D:\PrgSource\BookShop\BookShopModel\bin\Debug\BookShopModel.dll" />
+      <DeploymentItem filename="D:\PrgSource\BookShop\BookShopWeb\bin\BookShopWeb.dll" />
+      <DeploymentItem filename="D:\PrgSource\BookShop\packages\EntityFramework.4.1.10331.0\lib\EntityFramework.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-15T18:01:09.8916015+03:00" queuing="2012-04-15T18:01:09.9257812+03:00" start="2012-04-15T18:01:09.9335937+03:00" finish="2012-04-15T18:01:10.5419921+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="9" executed="9" passed="9" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CantAuthenticateWrongUser" storage="d:\prgsource\bookshop\bookshoptests\bin\debug\bookshoptests.dll" id="4ab8d7d9-bc75-8bfa-2444-6e5314dea175">
+      <Execution id="6751aa0b-3e6b-4f85-beb9-8fad197573c7" />
+      <TestMethod codeBase="D:/PrgSource/BookShop/BookShopTests/bin/Debug/BookShopTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BookShopTest.ModelTests, BookShopTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CantAuthenticateWrongUser" />
+    </UnitTest>
+    <UnitTest name="CanAuthenticateUserAfterCreation" storage="d:\prgsource\bookshop\bookshoptests\bin\debug\bookshoptests.dll" id="c6212e60-baca-f748-d759-d8bc26fd522a">
+      <Execution id="fd2fa9a5-41f5-4b71-805f-8e69bb666b7f" />
+      <TestMethod codeBase="D:/PrgSource/BookShop/BookShopTests/bin/Debug/BookShopTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BookShopTest.ModelTests, BookShopTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanAuthenticateUserAfterCreation" />
+    </UnitTest>
+    <UnitTest name="CanCreateUser" storage="d:\prgsource\bookshop\bookshoptests\bin\debug\bookshoptests.dll" id="a2d95e8f-1df3-aed0-7f85-2edca7bf90f2">
+      <Execution id="b4f43d58-233a-4ce8-85b7-8359f54ad7a7" />
+      <TestMethod codeBase="D:/PrgSource/BookShop/BookShopTests/bin/Debug/BookShopTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BookShopTest.ModelTests, BookShopTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanCreateUser" />
+    </UnitTest>
+    <UnitTest name="CantCreateUserWithDuplicateEmail" storage="d:\prgsource\bookshop\bookshoptests\bin\debug\bookshoptests.dll" id="c9f717ed-c618-2aa9-7017-c76a8e5062f0">
+      <Execution id="6e42e1e2-f6c8-4ae1-8e0d-00b9a99ee7ce" />
+      <TestMethod codeBase="D:/PrgSource/BookShop/BookShopTests/bin/Debug/BookShopTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BookShopTest.ModelTests, BookShopTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CantCreateUserWithDuplicateEmail" />
+    </UnitTest>
+    <UnitTest name="CantCreateDuplicateUser" storage="d:\prgsource\bookshop\bookshoptests\bin\debug\bookshoptests.dll" id="beb558c1-5293-58e2-7022-991f39de1527">
+      <Execution id="7a19018e-ca4f-49a8-a768-b3dbaa54aebe" />
+      <TestMethod codeBase="D:/PrgSource/BookShop/BookShopTests/bin/Debug/BookShopTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BookShopTest.ModelTests, BookShopTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CantCreateDuplicateUser" />
+    </UnitTest>
+    <UnitTest name="CantGetNotExistUserByName" storage="d:\prgsource\bookshop\bookshoptests\bin\debug\bookshoptests.dll" id="f7efcc7c-050b-e72e-cf9d-641c8a858b8d">
+      <Execution id="08cbec3c-c9d7-418e-ba78-e09a4b2a8a1d" />
+      <TestMethod codeBase="D:/PrgSource/BookShop/BookShopTests/bin/Debug/BookShopTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BookShopTest.ModelTests, BookShopTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CantGetNotExistUserByName" />
+    </UnitTest>
+    <UnitTest name="Buy_Book_Get" storage="d:\prgsource\bookshop\bookshoptests\bin\debug\bookshoptests.dll" id="77fdac1b-c763-8f90-6c3b-43cb56011b55">
+      <Execution id="978bc250-43a9-4fd9-beaf-8abda5bbc688" />
+      <TestMethod codeBase="D:/PrgSource/BookShop/BookShopTests/bin/Debug/BookShopTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BookShopTest.ControllerTests, BookShopTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Buy_Book_Get" />
+    </UnitTest>
+    <UnitTest name="Get_List_All_Books" storage="d:\prgsource\bookshop\bookshoptests\bin\debug\bookshoptests.dll" id="903e324b-8dcb-8f16-1024-8b204641844b">
+      <Execution id="30689a09-3f8a-4c33-bfa2-3bd36293ef83" />
+      <TestMethod codeBase="D:/PrgSource/BookShop/BookShopTests/bin/Debug/BookShopTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BookShopTest.ControllerTests, BookShopTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Get_List_All_Books" />
+    </UnitTest>
+    <UnitTest name="CanGetUserByName" storage="d:\prgsource\bookshop\bookshoptests\bin\debug\bookshoptests.dll" id="fdec48cd-c8b8-02be-7dbb-dbf931cee64b">
+      <Execution id="e49e2241-3ff5-42e7-bcf4-ed19e9f8f614" />
+      <TestMethod codeBase="D:/PrgSource/BookShop/BookShopTests/bin/Debug/BookShopTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BookShopTest.ModelTests, BookShopTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanGetUserByName" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4ab8d7d9-bc75-8bfa-2444-6e5314dea175" executionId="6751aa0b-3e6b-4f85-beb9-8fad197573c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77fdac1b-c763-8f90-6c3b-43cb56011b55" executionId="978bc250-43a9-4fd9-beaf-8abda5bbc688" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="903e324b-8dcb-8f16-1024-8b204641844b" executionId="30689a09-3f8a-4c33-bfa2-3bd36293ef83" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2d95e8f-1df3-aed0-7f85-2edca7bf90f2" executionId="b4f43d58-233a-4ce8-85b7-8359f54ad7a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="beb558c1-5293-58e2-7022-991f39de1527" executionId="7a19018e-ca4f-49a8-a768-b3dbaa54aebe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c6212e60-baca-f748-d759-d8bc26fd522a" executionId="fd2fa9a5-41f5-4b71-805f-8e69bb666b7f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9f717ed-c618-2aa9-7017-c76a8e5062f0" executionId="6e42e1e2-f6c8-4ae1-8e0d-00b9a99ee7ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f7efcc7c-050b-e72e-cf9d-641c8a858b8d" executionId="08cbec3c-c9d7-418e-ba78-e09a4b2a8a1d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fdec48cd-c8b8-02be-7dbb-dbf931cee64b" executionId="e49e2241-3ff5-42e7-bcf4-ed19e9f8f614" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="6751aa0b-3e6b-4f85-beb9-8fad197573c7" testId="4ab8d7d9-bc75-8bfa-2444-6e5314dea175" testName="CantAuthenticateWrongUser" computerName="USER-PC" duration="00:00:00.0240232" startTime="2012-04-15T18:01:09.9365234+03:00" endTime="2012-04-15T18:01:10.1318359+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6751aa0b-3e6b-4f85-beb9-8fad197573c7">
+    </UnitTestResult>
+    <UnitTestResult executionId="978bc250-43a9-4fd9-beaf-8abda5bbc688" testId="77fdac1b-c763-8f90-6c3b-43cb56011b55" testName="Buy_Book_Get" computerName="USER-PC" duration="00:00:00.3191801" startTime="2012-04-15T18:01:10.1337890+03:00" endTime="2012-04-15T18:01:10.4560546+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="978bc250-43a9-4fd9-beaf-8abda5bbc688">
+    </UnitTestResult>
+    <UnitTestResult executionId="30689a09-3f8a-4c33-bfa2-3bd36293ef83" testId="903e324b-8dcb-8f16-1024-8b204641844b" testName="Get_List_All_Books" computerName="USER-PC" duration="00:00:00.0288727" startTime="2012-04-15T18:01:10.4570312+03:00" endTime="2012-04-15T18:01:10.4882812+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="30689a09-3f8a-4c33-bfa2-3bd36293ef83">
+    </UnitTestResult>
+    <UnitTestResult executionId="b4f43d58-233a-4ce8-85b7-8359f54ad7a7" testId="a2d95e8f-1df3-aed0-7f85-2edca7bf90f2" testName="CanCreateUser" computerName="USER-PC" duration="00:00:00.0018770" startTime="2012-04-15T18:01:10.4902343+03:00" endTime="2012-04-15T18:01:10.4941406+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b4f43d58-233a-4ce8-85b7-8359f54ad7a7">
+    </UnitTestResult>
+    <UnitTestResult executionId="7a19018e-ca4f-49a8-a768-b3dbaa54aebe" testId="beb558c1-5293-58e2-7022-991f39de1527" testName="CantCreateDuplicateUser" computerName="USER-PC" duration="00:00:00.0027997" startTime="2012-04-15T18:01:10.4960937+03:00" endTime="2012-04-15T18:01:10.5009765+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a19018e-ca4f-49a8-a768-b3dbaa54aebe">
+    </UnitTestResult>
+    <UnitTestResult executionId="fd2fa9a5-41f5-4b71-805f-8e69bb666b7f" testId="c6212e60-baca-f748-d759-d8bc26fd522a" testName="CanAuthenticateUserAfterCreation" computerName="USER-PC" duration="00:00:00.0023356" startTime="2012-04-15T18:01:10.5029296+03:00" endTime="2012-04-15T18:01:10.5078125+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fd2fa9a5-41f5-4b71-805f-8e69bb666b7f">
+    </UnitTestResult>
+    <UnitTestResult executionId="6e42e1e2-f6c8-4ae1-8e0d-00b9a99ee7ce" testId="c9f717ed-c618-2aa9-7017-c76a8e5062f0" testName="CantCreateUserWithDuplicateEmail" computerName="USER-PC" duration="00:00:00.0034749" startTime="2012-04-15T18:01:10.5097656+03:00" endTime="2012-04-15T18:01:10.5156250+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e42e1e2-f6c8-4ae1-8e0d-00b9a99ee7ce">
+    </UnitTestResult>
+    <UnitTestResult executionId="08cbec3c-c9d7-418e-ba78-e09a4b2a8a1d" testId="f7efcc7c-050b-e72e-cf9d-641c8a858b8d" testName="CantGetNotExistUserByName" computerName="USER-PC" duration="00:00:00.0038555" startTime="2012-04-15T18:01:10.5166015+03:00" endTime="2012-04-15T18:01:10.5234375+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="08cbec3c-c9d7-418e-ba78-e09a4b2a8a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="e49e2241-3ff5-42e7-bcf4-ed19e9f8f614" testId="fdec48cd-c8b8-02be-7dbb-dbf931cee64b" testName="CanGetUserByName" computerName="USER-PC" duration="00:00:00.0037049" startTime="2012-04-15T18:01:10.5244140+03:00" endTime="2012-04-15T18:01:10.5302734+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e49e2241-3ff5-42e7-bcf4-ed19e9f8f614">
+    </UnitTestResult>
+  </Results>
+</TestRun>

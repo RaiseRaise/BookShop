@@ -1,0 +1,52 @@
+﻿@model IEnumerable<BookShopModel.Model.Book>
+@{
+    ViewBag.Title = "Index";
+}
+<h2>
+    Books</h2>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table border="1px">
+    <tr>
+        <th>
+            Author
+        </th>
+        <th>
+            Theme
+        </th>
+        <th>
+            Book
+        </th>
+        <th>
+            Price
+        </th>
+        <th>
+        </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Author.FirstName)
+                @Html.DisplayFor(modelItem => item.Author.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Theme.ThemeName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BookName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @using (Html.BeginForm("Delete", "Book", new { id = item.Id }))
+                {
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) @:|
+                    <input type="submit" value="Delete" />
+                }
+            </td>
+        </tr>
+    }
+</table>

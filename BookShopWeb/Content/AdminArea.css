@@ -1,0 +1,38 @@
+.main-menu{
+    margin: 10px 0px 10px 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	height: 25px;
+}
+.mainMenu{
+    list-style: none;
+}
+.mainMenu li{
+    float: left;
+    margin-right: 8px;
+}
+.mainMenu li a{
+    display: block;
+    background-color: #fff;
+    padding: 3px 10px;
+    line-height: 20px;
+    text-decoration: none;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+.mainMenu li a:hover{
+    background-color: #ddd;
+}
+.admin-wrapper{
+    background-color: #F6F6F6;
+    padding: 2px 2px 2px 2px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+td, th{
+    padding: 5px 15px 5px 15px;
+}

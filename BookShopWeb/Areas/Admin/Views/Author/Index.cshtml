@@ -1,0 +1,39 @@
+﻿@model IEnumerable<BookShopModel.Model.Author>
+@{
+    ViewBag.Title = "Index";
+}
+<h2>
+    Authors</h2>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table border="1px">
+    <tr>
+        <th>
+            FirstName
+        </th>
+        <th>
+            LastName
+        </th>
+        <th>
+        </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @using (Html.BeginForm("Delete", "Author", new { id = item.Id }))
+                {
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) @:|
+                    <input type="submit" value="Delete" />
+                }
+            </td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,15 @@
+D:\PrgSource\BookShop\BookShopTests\obj\Debug\ResolveAssemblyReference.cache
+D:\PrgSource\BookShop\BookShopTests\bin\Debug\BookShopTests.dll
+D:\PrgSource\BookShop\BookShopTests\bin\Debug\BookShopTests.pdb
+D:\PrgSource\BookShop\BookShopTests\bin\Debug\BookShopModel.dll
+D:\PrgSource\BookShop\BookShopTests\bin\Debug\EntityFramework.dll
+D:\PrgSource\BookShop\BookShopTests\bin\Debug\Moq.dll
+D:\PrgSource\BookShop\BookShopTests\bin\Debug\BookShopModel.pdb
+D:\PrgSource\BookShop\BookShopTests\bin\Debug\EntityFramework.xml
+D:\PrgSource\BookShop\BookShopTests\bin\Debug\Moq.pdb
+D:\PrgSource\BookShop\BookShopTests\bin\Debug\Moq.xml
+D:\PrgSource\BookShop\BookShopTests\obj\Debug\BookShopTests.dll
+D:\PrgSource\BookShop\BookShopTests\obj\Debug\BookShopTests.pdb
+D:\PrgSource\BookShop\BookShopTests\bin\Debug\BookShopWeb.dll
+D:\PrgSource\BookShop\BookShopTests\bin\Debug\Microsoft.Practices.Unity.dll
+D:\PrgSource\BookShop\BookShopTests\bin\Debug\BookShopWeb.pdb
